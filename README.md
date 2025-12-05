@@ -27,7 +27,7 @@ uv sync --extra cu126
 3. 다국어 음성인식 모델의 한국어 인식 오류율
 
     ```bash
-    uv run src/eval/v0.2/wer_eval_korean.py
+    uv run src/eval/v0.2/cer_eval_korean.py
     ```
 
 4. 다국어 음성인식 모델의 영어 인식 오류율
