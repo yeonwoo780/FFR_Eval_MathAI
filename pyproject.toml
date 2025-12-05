@@ -5,15 +5,20 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "datasets==3.5.1",
     "evaluate==0.4.3",
     "huggingface-hub==0.32.2",
     "ipykernel>=7.1.0",
     "jiwer==3.1.0",
     "jmespath==1.0.1",
     "jupyterlab>=4.5.0",
+    "librosa>=0.11.0",
+    "nlptutti>=0.0.0.10",
     "numpy==1.26.4",
     "pandas>=2.3.3",
+    "soundfile>=0.13.1",
     "tqdm>=4.67.1",
+    "transformers>=4.53.3",
 ]
 
 [project.optional-dependencies]
